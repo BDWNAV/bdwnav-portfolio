@@ -79,3 +79,34 @@ li a:hover {
   background-color: white;
   color: black;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background: #01010e;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}

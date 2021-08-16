@@ -7,7 +7,7 @@ export default class Projects extends React.Component {
     return (
       <div>
         <Navbar />
-        <Cards content="test"/>
+        <Cards project="Test" description="Does this work"/>
       </div>
     )
   }
