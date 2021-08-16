@@ -6,8 +6,8 @@ export default class Cards extends React.Component {
       <div className="load">
         <div className="card">
           <h1>{this.props.project}</h1>
-          <p className="test">{this.props.description}</p>
-          <p><button><a href="https://github.com/BDWNAV/" style={{textDecoration: "none", color: "inherit"}}>Contact me</a></button></p>
+          <p>{this.props.description}</p>
+          <p><button className="card-button"><a href="https://github.com/BDWNAV/" style={{textDecoration: "none", color: "inherit"}}>Contact me</a></button></p>
         </div>
       </div>
     )

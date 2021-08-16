@@ -92,7 +92,7 @@ li a:hover {
   font-size: 18px;
 }
 
-button {
+.card-button {
   border: none;
   outline: 0;
   display: inline-block;
