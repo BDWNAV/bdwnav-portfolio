@@ -1,10 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Cards from "../components/Cards";
 
 export default class Projects extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hi</h1>
+        <Navbar />
+        <Cards content="test"/>
       </div>
     )
   }
