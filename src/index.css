@@ -1,6 +1,24 @@
 html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
   padding: 0px;
+}
+
+.load {
+  animation: load 1s ease-in;
+  margin: 0px
+}
+
+@keyframes load {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
 }
 
 .navbar {
@@ -8,7 +26,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #0f0f0f;
+  background-color: #01010e;
 }
 
 .items {
@@ -21,10 +39,43 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in;
 }
 
 li a:hover {
   color: black;
   background-color: white;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background-color: #01010e;
+  color: white;
+  font-size: 30px;
+}
+
+.move {
+  animation: move 4.5s ease-in-out;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-70%);
+  }
+}
+
+.github {
+  padding: 17px;
+  background-color: #0f0f0f;
+  color: white;
+  border-radius: 20px;
+  outline-width: 0px;
+  border: none;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.github:hover {
+  background-color: white;
+  color: black;
 }
