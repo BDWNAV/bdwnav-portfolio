@@ -95,7 +95,7 @@ li a:hover {
 
 .title {
   color: grey;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .card-button {
@@ -108,7 +108,7 @@ li a:hover {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 17px;
   transition: background-color 0.4s ease-in-out;
 }
 
