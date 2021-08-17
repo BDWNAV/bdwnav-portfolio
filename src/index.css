@@ -117,9 +117,9 @@ li a:hover {
   color: black;
 }
 
-.copyright {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+.footer {
+  position: static;
   margin: 10px;
+  bottom: 0px;
+  text-align: right;
 }
