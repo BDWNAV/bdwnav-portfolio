@@ -56,7 +56,7 @@ li a:hover {
 }
 
 .move {
-  animation: move 4.5s ease-in-out;
+  animation: move 4.4s ease-in-out;
 }
 
 @keyframes move {
@@ -80,10 +80,15 @@ li a:hover {
   color: black;
 }
 
+.card-container {
+  float: left;
+  margin: 20px;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: 20px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -96,7 +101,7 @@ li a:hover {
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 8px;
+  padding: 10px;
   color: white;
   background: #01010e;
   text-align: center;
@@ -106,7 +111,7 @@ li a:hover {
   transition: background-color 0.4s ease-in-out;
 }
 
-button:hover {
+.card-button:hover {
   background-color: white;
   color: black;
 }
