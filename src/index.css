@@ -120,6 +120,7 @@ li a:hover {
 .footer {
   position: static;
   margin: 10px;
-  bottom: 0px;
+  bottom: 0;
+  right: 0;
   text-align: right;
 }
