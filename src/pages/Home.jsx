@@ -14,7 +14,7 @@ export default class Home extends React.Component {
           Other than coding I like to play games such as minecraft or splitgate, and sometimes going out for a walk but other than that I mainly code <i>(I know I'm a pretty boring man)</i>.
           If you'd like to check out some of my projects make sure to check out my <a href="https://github.com/BDWNAV">GitHub</a> If you need to contact me for what ever reason please contact me at my <a href="mailto:nav@bdwnav.tech">email</a> or my discord Nav#8153 and I will try and get back to you as soon as humanly possible.
           </p>
-          <footer className="copyright">© 2021 Bdwnav</footer>
+          <footer className="copyright">© 2021 Bdwnav</footer> 
         </div>
       </div>
     );
