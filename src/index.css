@@ -1,5 +1,6 @@
 html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
   margin: 0px;
   padding: 0px;
 }
@@ -114,4 +115,11 @@ li a:hover {
 .card-button:hover {
   background-color: white;
   color: black;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
 }
