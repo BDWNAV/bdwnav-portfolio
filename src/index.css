@@ -118,9 +118,24 @@ li a:hover {
 }
 
 .footer {
-  position: static;
-  margin: 10px;
+  position: fixed;
   bottom: 0;
-  right: 0;
-  text-align: right;
+  left: 0;
+  width: 100%;
+  background-color: inherit;
+  color: black;
+  text-align: center;
+  animation: footer-load 1s ease-in;
+}
+
+@keyframes footer-load {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
 }
